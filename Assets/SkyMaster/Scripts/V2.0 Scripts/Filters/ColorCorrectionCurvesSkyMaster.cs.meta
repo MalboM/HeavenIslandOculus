@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bf8a46c444140ba4196e440f76e2516e
+timeCreated: 1432623491
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - colorCorrectionCurvesShader: {fileID: 4800000, guid: 92d3ae45dbd53154291248082fbc14d7,
+      type: 3}
+  - simpleColorCorrectionCurvesShader: {fileID: 4800000, guid: c78096bbb4c656c46b4bd8319283e05c,
+      type: 3}
+  - colorCorrectionSelectiveShader: {fileID: 4800000, guid: 6dbc1ebd95c067b4a9f563e7ae4d64f4,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

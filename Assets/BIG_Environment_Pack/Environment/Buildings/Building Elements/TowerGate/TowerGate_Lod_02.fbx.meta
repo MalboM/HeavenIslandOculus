@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: 28ab5d5243ef909418e04a72d954f893
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    4300000: TG_Plank_02
+    4300002: TG_Planks_03
+    4300004: tower_02_001
+    4300006: Brace_Stones_04_001
+    4300008: TowerGate_Roof
+    4300010: TG_Plank_01
+    4300012: door_01
+    4300014: chains
+    4300016: door_02
+    4300018: TowerGate
+    4300020: TG_Plank
+    4300022: TG_RoofPlanks
+    4300024: TG_BraceStones
+    4300026: TG_Roof
+    4300028: TG_Chains
+    4300030: TG_Wall
+    4300032: TG_Frame
+    4300034: TG_Brace
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 52fed1d425bab934b859eb1a031c4a08
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    4300000: old_tower
+    4300002: stairs_01
+    4300004: tower_02
+    4300006: plank_01
+    4300008: stonewall_021
+    4300010: stonewall_03
+    4300012: stonewall_04
+    4300014: stonewall_01
+    4300016: door_05
+    4300018: tower_stone_braces_01
+    4300020: bridge_01
+    4300022: plank_06
+    4300024: house_roofs
+    4300026: houses_01
+    4300028: chains
+    4300030: tower_01_planks
+    4300032: door_02
+    4300034: towergate
+    4300036: plank_02
+    4300038: tower_03
+    4300040: plank_05
+    4300042: housestonebracer_01
+    4300044: houses_wood_01
+    4300046: tower_planks
+    4300048: plank_07
+    4300050: tower_roof_01
+    4300052: plank_04
+    4300054: door_06
+    4300056: tower_01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

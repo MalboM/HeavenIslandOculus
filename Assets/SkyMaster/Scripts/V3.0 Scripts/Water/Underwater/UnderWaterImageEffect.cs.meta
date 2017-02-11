@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 27f8094d05ae72a41aa44f851bc3656b
+timeCreated: 1442648617
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - focalTransform: {instanceID: 0}
+  - dofHdrShader: {fileID: 4800000, guid: 275e2e30853cd0648be5cc69c1affc9f, type: 3}
+  - dx11BokehShader: {fileID: 4800000, guid: 9c0f52a1539494c49a47942a60c74dff, type: 3}
+  - dx11BokehTexture: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

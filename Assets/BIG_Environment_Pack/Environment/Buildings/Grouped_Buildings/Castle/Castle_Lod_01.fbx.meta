@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 85ad74cbd589d3545ad4d666748ea32c
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    4300000: stairs_01
+    4300002: tower_02
+    4300004: door_03
+    4300006: plank_01
+    4300008: Brace_Stones_02
+    4300010: stonewall_021
+    4300012: stonewall_03
+    4300014: Brace_Stones_03
+    4300016: Brace_Stones_04
+    4300018: Brace_Stones_01
+    4300020: stonewall_04
+    4300022: stonewall_01
+    4300024: door_01
+    4300026: door_05
+    4300028: tower_stone_braces_01
+    4300030: bridge_01
+    4300032: plank_06
+    4300034: house_roofs
+    4300036: houses_01
+    4300038: chains
+    4300040: tower_01_planks
+    4300042: door_02
+    4300044: towergate
+    4300046: plank_02
+    4300048: tower_03
+    4300050: door_04
+    4300052: plank_05
+    4300054: housestonebracer_01
+    4300056: houses_wood_01
+    4300058: door_08
+    4300060: tower_planks
+    4300062: plank_07
+    4300064: tower_roof_01
+    4300066: plank_04
+    4300068: door_06
+    4300070: tower_01
+    4300072: window_01
+    4300074: door_07
+    4300076: ivy_01
+    4300078: ivy_01_001
+    4300080: Cube
+    4300082: housestonebracer__000
+    4300084: old_tower
+    4300086: ivy_02
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eabbf85cd215c154eab1b950c5674697
+timeCreated: 1432623545
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shaderLum: {fileID: 4800000, guid: 2452a8b102b0ffa47a55850f7d90ce75, type: 3}
+  - shaderReduce: {fileID: 4800000, guid: 4612823bb82391340bdee6415e7d308b, type: 3}
+  - shaderAdapt: {fileID: 4800000, guid: a6a097b81b1ed0341a9b0629ffd987c6, type: 3}
+  - shaderApply: {fileID: 4800000, guid: a4f7491b1e57212428529a9b17a87021, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

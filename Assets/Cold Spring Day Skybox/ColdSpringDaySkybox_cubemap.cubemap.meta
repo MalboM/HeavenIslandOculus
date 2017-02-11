@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 008614e30bbe76145bebbb953635b20e
+labels:
+- art
+- shader&textures
+- environment
+- skies
+- skybox
+- sky
+- cold
+- spring
+- day
+- cubemap
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

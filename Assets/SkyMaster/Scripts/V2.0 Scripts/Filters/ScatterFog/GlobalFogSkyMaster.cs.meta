@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d26261b6d05a9f4daf3edd3543ecdbe
+timeCreated: 1432623603
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Sun: {instanceID: 0}
+  - fogShader: {fileID: 4800000, guid: f4b1c12dd38ff25489cf85d9574882e0, type: 3}
+  - SkyManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
