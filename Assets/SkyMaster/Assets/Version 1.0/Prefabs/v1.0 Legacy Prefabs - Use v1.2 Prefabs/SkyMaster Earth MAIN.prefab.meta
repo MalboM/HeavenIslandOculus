@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 7468f2b8b8ab74e42a585cd25473f466
+labels:
+- Effect
+- Global
+- Illumination
+- Indirect
+- Light
+- Lightning
+- Radiosity
+- Sky
+- Storm
+- Tornado
+- Volumetric
+- Fog
+- Earth
+- Scattering
+- Physically
+- Based
+- Volcano
+- Erruption
+- Rain
+- Haze
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

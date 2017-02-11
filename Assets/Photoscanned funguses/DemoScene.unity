@@ -1,0 +1,6145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .211999997, g: .226999998, b: .259000003, a: 1}
+  m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
+  m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 0
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666672
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &37761379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 37761380}
+  - 33: {fileID: 37761382}
+  - 23: {fileID: 37761381}
+  m_Layer: 0
+  m_Name: Fungus19_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &37761380
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 37761379}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1488792837}
+  m_RootOrder: 0
+--- !u!23 &37761381
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 37761379}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a7a971ec56c41164da31d5ac8c528720, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &37761382
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 37761379}
+  m_Mesh: {fileID: 4300006, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+--- !u!1 &100263723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 100263724}
+  - 33: {fileID: 100263726}
+  - 23: {fileID: 100263725}
+  m_Layer: 0
+  m_Name: Fungus06_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100263724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 100263723}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1793194344}
+  m_RootOrder: 0
+--- !u!23 &100263725
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 100263723}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 69e7c197fda4eda428d98066f3a0a37e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &100263726
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 100263723}
+  m_Mesh: {fileID: 4300006, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+--- !u!1001 &101500057
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.0166999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .207499996
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_RootGameObject: {fileID: 1488792836}
+  m_IsPrefabParent: 0
+--- !u!1 &113738910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 113738915}
+  - 20: {fileID: 113738914}
+  - 92: {fileID: 113738913}
+  - 124: {fileID: 113738912}
+  - 81: {fileID: 113738911}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &113738911
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113738910}
+  m_Enabled: 1
+--- !u!124 &113738912
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113738910}
+  m_Enabled: 1
+--- !u!92 &113738913
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113738910}
+  m_Enabled: 1
+--- !u!20 &113738914
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113738910}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
+--- !u!4 &113738915
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113738910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+--- !u!1 &123044783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 123044784}
+  - 33: {fileID: 123044786}
+  - 23: {fileID: 123044785}
+  m_Layer: 0
+  m_Name: Fungus14_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &123044784
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 123044783}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 967332824}
+  m_RootOrder: 1
+--- !u!23 &123044785
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 123044783}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 114874ee634285a41bd0b67b6f10489f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &123044786
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 123044783}
+  m_Mesh: {fileID: 4300004, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+--- !u!1001 &128046356
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_RootGameObject: {fileID: 1466172749}
+  m_IsPrefabParent: 0
+--- !u!1 &139379264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 139379266}
+  - 33: {fileID: 139379267}
+  - 23: {fileID: 139379265}
+  m_Layer: 0
+  m_Name: Fungus07_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &139379265
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 139379264}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: df5201f85ba0f7d4980e9344ea8ad348, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &139379266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 139379264}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1519653713}
+  m_RootOrder: 1
+--- !u!33 &139379267
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 139379264}
+  m_Mesh: {fileID: 4300004, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+--- !u!1001 &167651433
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0966999978
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .191599995
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_RootGameObject: {fileID: 1128516419}
+  m_IsPrefabParent: 0
+--- !u!1 &183886434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 183886436}
+  - 33: {fileID: 183886437}
+  - 23: {fileID: 183886435}
+  m_Layer: 0
+  m_Name: Fungus01_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &183886435
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 183886434}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 98634672eeade2a40bbc9d773a0ab910, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &183886436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 183886434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1466172751}
+  m_RootOrder: 0
+--- !u!33 &183886437
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 183886434}
+  m_Mesh: {fileID: 4300006, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+--- !u!1 &192694223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 192694225}
+  - 33: {fileID: 192694226}
+  - 23: {fileID: 192694224}
+  m_Layer: 0
+  m_Name: Fungus01_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &192694224
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 192694223}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 98634672eeade2a40bbc9d773a0ab910, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &192694225
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 192694223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1466172751}
+  m_RootOrder: 2
+--- !u!33 &192694226
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 192694223}
+  m_Mesh: {fileID: 4300002, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+--- !u!1 &205576825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 205576827}
+  - 108: {fileID: 205576826}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &205576826
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 205576825}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_Type: 1
+  m_Color: {r: 1, g: .956862748, b: .839215696, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_NormalBias: .400000006
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &205576827
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 205576825}
+  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381676, w: .875426054}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+--- !u!1001 &220835489
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.235836118
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.20952721e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -.0144544262
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_RootGameObject: {fileID: 1972200013}
+  m_IsPrefabParent: 0
+--- !u!1 &250117459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 250117460}
+  - 33: {fileID: 250117462}
+  - 23: {fileID: 250117461}
+  m_Layer: 0
+  m_Name: Fungus08_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250117460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 250117459}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1972200014}
+  m_RootOrder: 1
+--- !u!23 &250117461
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 250117459}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7f39527c4a87a304e8861e3264417c2e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &250117462
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 250117459}
+  m_Mesh: {fileID: 4300004, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+--- !u!1 &343554202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 343554203}
+  - 33: {fileID: 343554205}
+  - 23: {fileID: 343554204}
+  m_Layer: 0
+  m_Name: Fungus16_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &343554203
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 343554202}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .0146912765, y: .0146912765, z: .0146912765}
+  m_Children: []
+  m_Father: {fileID: 1128516420}
+  m_RootOrder: 2
+--- !u!23 &343554204
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 343554202}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f97bd0ee56bb46840a5e53fb9cd98fb0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &343554205
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 343554202}
+  m_Mesh: {fileID: 4300002, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+--- !u!1 &346381529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 346381532}
+  - 33: {fileID: 346381531}
+  - 23: {fileID: 346381530}
+  m_Layer: 0
+  m_Name: Fungus03_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &346381530
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 346381529}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8d92de7bdf09c474eacc60d3c141aabc, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &346381531
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 346381529}
+  m_Mesh: {fileID: 4300006, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+--- !u!4 &346381532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 346381529}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2113568301}
+  m_RootOrder: 0
+--- !u!1 &395977780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 395977782}
+  - 33: {fileID: 395977783}
+  - 23: {fileID: 395977781}
+  m_Layer: 0
+  m_Name: Fungus18_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &395977781
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 395977780}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 818b8f54b7e50cc4f822930120418be8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &395977782
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 395977780}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1351869804}
+  m_RootOrder: 0
+--- !u!33 &395977783
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 395977780}
+  m_Mesh: {fileID: 4300006, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+--- !u!1001 &399461121
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.175999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .066399999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_RootGameObject: {fileID: 1719762478}
+  m_IsPrefabParent: 0
+--- !u!1 &476689392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476689395}
+  - 33: {fileID: 476689394}
+  - 23: {fileID: 476689393}
+  m_Layer: 0
+  m_Name: Fungus16_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &476689393
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 476689392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f97bd0ee56bb46840a5e53fb9cd98fb0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &476689394
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 476689392}
+  m_Mesh: {fileID: 4300004, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+--- !u!4 &476689395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 476689392}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .0146912765, y: .0146912765, z: .0146912765}
+  m_Children: []
+  m_Father: {fileID: 1128516420}
+  m_RootOrder: 1
+--- !u!1 &482973062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482973064}
+  - 33: {fileID: 482973065}
+  - 23: {fileID: 482973063}
+  m_Layer: 0
+  m_Name: Fungus13_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &482973063
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 482973062}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fbcc342d6e8ed0a43b388694a2e5af22, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &482973064
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 482973062}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657838282}
+  m_RootOrder: 0
+--- !u!33 &482973065
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 482973062}
+  m_Mesh: {fileID: 4300006, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+--- !u!1 &483844211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483844215}
+  - 33: {fileID: 483844214}
+  - 64: {fileID: 483844213}
+  - 23: {fileID: 483844212}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &483844212
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483844211}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &483844213
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483844211}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &483844214
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483844211}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &483844215
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483844211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+--- !u!1 &550577758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 550577759}
+  - 205: {fileID: 550577760}
+  m_Layer: 0
+  m_Name: Fungus12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &550577759
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 550577758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0413848273, y: -2.76739809e-18, z: .124632522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1243624653}
+  - {fileID: 1371027004}
+  - {fileID: 1524335462}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+--- !u!205 &550577760
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 550577758}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.0087527344, y: .00781962648, z: .000263594091}
+  m_Size: .0491421223
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1243624654}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1524335460}
+    - renderer: {fileID: 1371027005}
+  m_Enabled: 1
+--- !u!1 &563500292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 563500293}
+  - 33: {fileID: 563500295}
+  - 23: {fileID: 563500294}
+  m_Layer: 0
+  m_Name: Fungus14_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563500293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 563500292}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 967332824}
+  m_RootOrder: 2
+--- !u!23 &563500294
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 563500292}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 114874ee634285a41bd0b67b6f10489f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &563500295
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 563500292}
+  m_Mesh: {fileID: 4300002, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+--- !u!1 &583941784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 583941786}
+  - 33: {fileID: 583941787}
+  - 23: {fileID: 583941785}
+  m_Layer: 0
+  m_Name: Fungus15_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &583941785
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 583941784}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 857ebead9831eb744bb08a2afa056c2f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &583941786
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 583941784}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1408668877}
+  m_RootOrder: 1
+--- !u!33 &583941787
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 583941784}
+  m_Mesh: {fileID: 4300004, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+--- !u!1 &603605518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 603605520}
+  - 33: {fileID: 603605521}
+  - 23: {fileID: 603605519}
+  m_Layer: 0
+  m_Name: Fungus07_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &603605519
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 603605518}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: df5201f85ba0f7d4980e9344ea8ad348, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &603605520
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 603605518}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1519653713}
+  m_RootOrder: 2
+--- !u!33 &603605521
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 603605518}
+  m_Mesh: {fileID: 4300002, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+--- !u!1 &622780956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 622780958}
+  - 33: {fileID: 622780959}
+  - 23: {fileID: 622780957}
+  m_Layer: 0
+  m_Name: Fungus04_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &622780957
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 622780956}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 784d486481c22524fb6e358774cffec9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &622780958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 622780956}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1508551165}
+  m_RootOrder: 1
+--- !u!33 &622780959
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 622780956}
+  m_Mesh: {fileID: 4300004, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+--- !u!1001 &651463671
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0413848273
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.76739809e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .124632522
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_RootGameObject: {fileID: 550577758}
+  m_IsPrefabParent: 0
+--- !u!1001 &655213239
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0832134038
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.96736471e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0886022374
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_RootGameObject: {fileID: 1285813566}
+  m_IsPrefabParent: 0
+--- !u!1 &658824737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 658824738}
+  - 33: {fileID: 658824740}
+  - 23: {fileID: 658824739}
+  m_Layer: 0
+  m_Name: Fungus02_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658824738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 658824737}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1731736433}
+  m_RootOrder: 0
+--- !u!23 &658824739
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 658824737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ba25250aa5d7a704aa2291448a7a571b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &658824740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 658824737}
+  m_Mesh: {fileID: 4300006, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+--- !u!1 &724299514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 724299515}
+  - 33: {fileID: 724299517}
+  - 23: {fileID: 724299516}
+  m_Layer: 0
+  m_Name: Fungus05_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724299515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 724299514}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1719762479}
+  m_RootOrder: 1
+--- !u!23 &724299516
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 724299514}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d533d41cfd7f9147acc3375d4bcca95, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &724299517
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 724299514}
+  m_Mesh: {fileID: 4300004, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+--- !u!1 &725471089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 725471092}
+  - 33: {fileID: 725471091}
+  - 23: {fileID: 725471090}
+  m_Layer: 0
+  m_Name: Fungus17_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &725471090
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 725471089}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 19bf7f8c48325e54794b74bfac7c4216, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &725471091
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 725471089}
+  m_Mesh: {fileID: 4300002, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+--- !u!4 &725471092
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 725471089}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2125628378}
+  m_RootOrder: 2
+--- !u!1 &765956771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 765956772}
+  - 33: {fileID: 765956774}
+  - 23: {fileID: 765956773}
+  m_Layer: 0
+  m_Name: Fungus20_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765956772
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 765956771}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1044424478}
+  m_RootOrder: 2
+--- !u!23 &765956773
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 765956771}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 107d74e301a29714bb631438d180ebc9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &765956774
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 765956771}
+  m_Mesh: {fileID: 4300002, guid: 675e896c6d907a946b12597af8154427, type: 3}
+--- !u!1 &769345641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 769345642}
+  - 33: {fileID: 769345644}
+  - 23: {fileID: 769345643}
+  m_Layer: 0
+  m_Name: Fungus19_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &769345642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 769345641}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1488792837}
+  m_RootOrder: 2
+--- !u!23 &769345643
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 769345641}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a7a971ec56c41164da31d5ac8c528720, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &769345644
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 769345641}
+  m_Mesh: {fileID: 4300002, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+--- !u!1 &824320386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 824320387}
+  - 33: {fileID: 824320389}
+  - 23: {fileID: 824320388}
+  m_Layer: 0
+  m_Name: Fungus20_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &824320387
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 824320386}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1044424478}
+  m_RootOrder: 0
+--- !u!23 &824320388
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 824320386}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 107d74e301a29714bb631438d180ebc9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &824320389
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 824320386}
+  m_Mesh: {fileID: 4300006, guid: 675e896c6d907a946b12597af8154427, type: 3}
+--- !u!1 &908801342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 908801343}
+  - 33: {fileID: 908801345}
+  - 23: {fileID: 908801344}
+  m_Layer: 0
+  m_Name: Fungus11_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &908801343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 908801342}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1285813567}
+  m_RootOrder: 2
+--- !u!23 &908801344
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 908801342}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0bf3bc37cb8a4c34eae322448bbd2c72, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &908801345
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 908801342}
+  m_Mesh: {fileID: 4300002, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+--- !u!1 &967332823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 967332824}
+  - 205: {fileID: 967332825}
+  m_Layer: 0
+  m_Name: Fungus14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &967332824
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 967332823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.171200007, y: 0, z: .164499998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1223533503}
+  - {fileID: 123044784}
+  - {fileID: 563500293}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+--- !u!205 &967332825
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 967332823}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.0169626847, y: .0262992661, z: -.00247453898}
+  m_Size: .0783715397
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1223533501}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 123044785}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 563500294}
+  m_Enabled: 1
+--- !u!1 &1025743084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1025743085}
+  - 33: {fileID: 1025743087}
+  - 23: {fileID: 1025743086}
+  m_Layer: 0
+  m_Name: Fungus03_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1025743085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1025743084}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2113568301}
+  m_RootOrder: 2
+--- !u!23 &1025743086
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1025743084}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8d92de7bdf09c474eacc60d3c141aabc, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1025743087
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1025743084}
+  m_Mesh: {fileID: 4300002, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+--- !u!1 &1044424477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1044424478}
+  - 205: {fileID: 1044424479}
+  m_Layer: 0
+  m_Name: Fungus20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044424478
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 1044424477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.241099998, y: 0, z: .204699993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 824320387}
+  - {fileID: 1696127330}
+  - {fileID: 765956772}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+--- !u!205 &1044424479
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 1044424477}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00272271782, y: .031405054, z: -.00520487688}
+  m_Size: .100882038
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 824320388}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1696127328}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 765956773}
+  m_Enabled: 1
+--- !u!1 &1061920206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1061920209}
+  - 33: {fileID: 1061920208}
+  - 23: {fileID: 1061920207}
+  m_Layer: 0
+  m_Name: Fungus08_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1061920207
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1061920206}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7f39527c4a87a304e8861e3264417c2e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1061920208
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1061920206}
+  m_Mesh: {fileID: 4300006, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+--- !u!4 &1061920209
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1061920206}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1972200014}
+  m_RootOrder: 0
+--- !u!1001 &1106429250
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.1087
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .138099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_RootGameObject: {fileID: 1351869802}
+  m_IsPrefabParent: 0
+--- !u!1 &1128516419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1128516420}
+  - 205: {fileID: 1128516421}
+  m_Layer: 0
+  m_Name: Fungus16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1128516420
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 1128516419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0966999978, y: 0, z: .191599995}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1502168549}
+  - {fileID: 476689395}
+  - {fileID: 343554203}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!205 &1128516421
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 1128516419}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00119734183, y: .0171151869, z: -.00333184935}
+  m_Size: .0809232667
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1502168550}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 476689393}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 343554204}
+  m_Enabled: 1
+--- !u!1 &1145686151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1145686152}
+  - 33: {fileID: 1145686154}
+  - 23: {fileID: 1145686153}
+  m_Layer: 0
+  m_Name: Fungus10_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145686152
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1145686151}
+  m_LocalRotation: {x: 2.66925468e-08, y: -.707106709, z: 2.66925415e-08, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1804268442}
+  m_RootOrder: 1
+--- !u!23 &1145686153
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1145686151}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a36dd08860363604790e2a960287e6d8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1145686154
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1145686151}
+  m_Mesh: {fileID: 4300004, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+--- !u!1 &1175740148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1175740150}
+  - 33: {fileID: 1175740151}
+  - 23: {fileID: 1175740149}
+  m_Layer: 0
+  m_Name: Fungus18_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1175740149
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1175740148}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 818b8f54b7e50cc4f822930120418be8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1175740150
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1175740148}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1351869804}
+  m_RootOrder: 2
+--- !u!33 &1175740151
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1175740148}
+  m_Mesh: {fileID: 4300002, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+--- !u!1 &1223533500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1223533503}
+  - 33: {fileID: 1223533502}
+  - 23: {fileID: 1223533501}
+  m_Layer: 0
+  m_Name: Fungus14_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1223533501
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 1223533500}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 114874ee634285a41bd0b67b6f10489f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1223533502
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: a2866b421b08c604ab72f81bdba374d9,
+    type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 1223533500}
+  m_Mesh: {fileID: 4300006, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+--- !u!4 &1223533503
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_PrefabInternal: {fileID: 1595601188}
+  m_GameObject: {fileID: 1223533500}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 967332824}
+  m_RootOrder: 0
+--- !u!1 &1223862256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1223862259}
+  - 33: {fileID: 1223862258}
+  - 23: {fileID: 1223862257}
+  m_Layer: 0
+  m_Name: Fungus10_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1223862257
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1223862256}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a36dd08860363604790e2a960287e6d8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1223862258
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1223862256}
+  m_Mesh: {fileID: 4300006, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+--- !u!4 &1223862259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1223862256}
+  m_LocalRotation: {x: 2.66925468e-08, y: -.707106709, z: 2.66925415e-08, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1804268442}
+  m_RootOrder: 0
+--- !u!1 &1243624652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1243624653}
+  - 33: {fileID: 1243624655}
+  - 23: {fileID: 1243624654}
+  m_Layer: 0
+  m_Name: Fungus12_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1243624653
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1243624652}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 550577759}
+  m_RootOrder: 0
+--- !u!23 &1243624654
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1243624652}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 595ee22c2bf07f440bcc195504080fe4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1243624655
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1243624652}
+  m_Mesh: {fileID: 4300006, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+--- !u!1 &1247393001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1247393003}
+  - 33: {fileID: 1247393004}
+  - 23: {fileID: 1247393002}
+  m_Layer: 0
+  m_Name: Fungus15_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1247393002
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1247393001}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 857ebead9831eb744bb08a2afa056c2f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1247393003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1247393001}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1408668877}
+  m_RootOrder: 0
+--- !u!33 &1247393004
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1247393001}
+  m_Mesh: {fileID: 4300006, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+--- !u!1 &1285813566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1285813567}
+  - 205: {fileID: 1285813568}
+  m_Layer: 0
+  m_Name: Fungus11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1285813567
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 1285813566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0832134038, y: -1.96736471e-18, z: .0886022374}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1991969533}
+  - {fileID: 2097910452}
+  - {fileID: 908801343}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+--- !u!205 &1285813568
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 1285813566}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00183318183, y: .0273563303, z: 7.89538026e-05}
+  m_Size: .0813692659
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1991969531}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2097910453}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 908801344}
+  m_Enabled: 1
+--- !u!1 &1291635411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1291635414}
+  - 33: {fileID: 1291635413}
+  - 23: {fileID: 1291635412}
+  m_Layer: 0
+  m_Name: Fungus19_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1291635412
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 1291635411}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a7a971ec56c41164da31d5ac8c528720, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1291635413
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 1291635411}
+  m_Mesh: {fileID: 4300004, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+--- !u!4 &1291635414
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 1291635411}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1488792837}
+  m_RootOrder: 1
+--- !u!1 &1351869802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1351869804}
+  - 205: {fileID: 1351869803}
+  m_Layer: 0
+  m_Name: Fungus18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1351869803
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1351869802}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00451391935, y: .0182595644, z: -.00163862854}
+  m_Size: .0816081315
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 395977781}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1558525082}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1175740149}
+  m_Enabled: 1
+--- !u!4 &1351869804
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1351869802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.1087, y: 0, z: .138099998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 395977782}
+  - {fileID: 1558525083}
+  - {fileID: 1175740150}
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+--- !u!1 &1371027003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1371027004}
+  - 33: {fileID: 1371027006}
+  - 23: {fileID: 1371027005}
+  m_Layer: 0
+  m_Name: Fungus12_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371027004
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1371027003}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 550577759}
+  m_RootOrder: 1
+--- !u!23 &1371027005
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1371027003}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 595ee22c2bf07f440bcc195504080fe4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1371027006
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1371027003}
+  m_Mesh: {fileID: 4300004, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+--- !u!1 &1408668875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1408668877}
+  - 205: {fileID: 1408668876}
+  m_Layer: 0
+  m_Name: Fungus15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1408668876
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1408668875}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00422102958, y: .0150280073, z: -.00156950578}
+  m_Size: .0851843059
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1247393002}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 583941785}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1465118062}
+  m_Enabled: 1
+--- !u!4 &1408668877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1408668875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .1761522, y: -2.05036753e-18, z: .0923403427}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1247393003}
+  - {fileID: 583941786}
+  - {fileID: 1465118063}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+--- !u!1 &1408881488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1408881490}
+  - 33: {fileID: 1408881491}
+  - 23: {fileID: 1408881489}
+  m_Layer: 0
+  m_Name: Fungus13_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1408881489
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1408881488}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fbcc342d6e8ed0a43b388694a2e5af22, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1408881490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1408881488}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657838282}
+  m_RootOrder: 2
+--- !u!33 &1408881491
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1408881488}
+  m_Mesh: {fileID: 4300002, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+--- !u!1 &1417821311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1417821312}
+  - 33: {fileID: 1417821314}
+  - 23: {fileID: 1417821313}
+  m_Layer: 0
+  m_Name: Fungus08_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417821312
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1417821311}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1972200014}
+  m_RootOrder: 2
+--- !u!23 &1417821313
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1417821311}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7f39527c4a87a304e8861e3264417c2e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1417821314
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1417821311}
+  m_Mesh: {fileID: 4300002, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+--- !u!1 &1463357538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1463357540}
+  - 33: {fileID: 1463357541}
+  - 23: {fileID: 1463357539}
+  m_Layer: 0
+  m_Name: Fungus01_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1463357539
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 1463357538}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 98634672eeade2a40bbc9d773a0ab910, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1463357540
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 1463357538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1466172751}
+  m_RootOrder: 1
+--- !u!33 &1463357541
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 1463357538}
+  m_Mesh: {fileID: 4300004, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+--- !u!1 &1465118061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1465118063}
+  - 33: {fileID: 1465118064}
+  - 23: {fileID: 1465118062}
+  m_Layer: 0
+  m_Name: Fungus15_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1465118062
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1465118061}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 857ebead9831eb744bb08a2afa056c2f, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1465118063
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1465118061}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1408668877}
+  m_RootOrder: 2
+--- !u!33 &1465118064
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 23451456a88a2574482fb27dbc9a05ae,
+    type: 3}
+  m_PrefabInternal: {fileID: 1886254780}
+  m_GameObject: {fileID: 1465118061}
+  m_Mesh: {fileID: 4300002, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+--- !u!1 &1466172749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1466172751}
+  - 205: {fileID: 1466172750}
+  m_Layer: 0
+  m_Name: Fungus01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1466172750
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 1384fd55e73cc6f41b196d7110d26481,
+    type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 1466172749}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00105924159, y: .0427244529, z: -.0025076773}
+  m_Size: .152294785
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 183886435}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1463357539}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 192694224}
+  m_Enabled: 1
+--- !u!4 &1466172751
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 1384fd55e73cc6f41b196d7110d26481, type: 3}
+  m_PrefabInternal: {fileID: 128046356}
+  m_GameObject: {fileID: 1466172749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 183886436}
+  - {fileID: 1463357540}
+  - {fileID: 192694225}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1488792836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1488792837}
+  - 205: {fileID: 1488792838}
+  m_Layer: 0
+  m_Name: Fungus19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488792837
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6948ea6192a98a840afab2546a97ad8d, type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 1488792836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0166999996, y: 0, z: .207499996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 37761380}
+  - {fileID: 1291635414}
+  - {fileID: 769345642}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!205 &1488792838
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 6948ea6192a98a840afab2546a97ad8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 101500057}
+  m_GameObject: {fileID: 1488792836}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.00722433068, y: .0263170861, z: .00270209089}
+  m_Size: .0925403312
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 37761381}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1291635412}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 769345643}
+  m_Enabled: 1
+--- !u!1 &1502168548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1502168549}
+  - 33: {fileID: 1502168551}
+  - 23: {fileID: 1502168550}
+  m_Layer: 0
+  m_Name: Fungus16_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1502168549
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 1502168548}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .0146912765, y: .0146912765, z: .0146912765}
+  m_Children: []
+  m_Father: {fileID: 1128516420}
+  m_RootOrder: 0
+--- !u!23 &1502168550
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 1502168548}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f97bd0ee56bb46840a5e53fb9cd98fb0, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1502168551
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: b5f0b86c76c339a4bb8e401f2207172d,
+    type: 3}
+  m_PrefabInternal: {fileID: 167651433}
+  m_GameObject: {fileID: 1502168548}
+  m_Mesh: {fileID: 4300006, guid: b5f0b86c76c339a4bb8e401f2207172d, type: 3}
+--- !u!1 &1508551163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1508551165}
+  - 205: {fileID: 1508551164}
+  m_Layer: 0
+  m_Name: Fungus04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1508551164
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1508551163}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .00153713301, y: .0320734233, z: -.00144272856}
+  m_Size: .0823433846
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1838286380}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 622780957}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1584422081}
+  m_Enabled: 1
+--- !u!4 &1508551165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1508551163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0926999971, y: -0, z: .0449000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1838286381}
+  - {fileID: 622780958}
+  - {fileID: 1584422082}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+--- !u!1 &1519653711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1519653713}
+  - 205: {fileID: 1519653712}
+  m_Layer: 0
+  m_Name: Fungus07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1519653712
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 1519653711}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .00598812476, y: .0412035584, z: -.00119011849}
+  m_Size: .113905966
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1981218748}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 139379265}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 603605519}
+  m_Enabled: 1
+--- !u!4 &1519653713
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 1519653711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .103535384, y: -8.55209421e-19, z: .0385152064}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1981218749}
+  - {fileID: 139379266}
+  - {fileID: 603605520}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+--- !u!1 &1524335459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1524335462}
+  - 33: {fileID: 1524335461}
+  - 23: {fileID: 1524335460}
+  m_Layer: 0
+  m_Name: Fungus12_LOD1.001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1524335460
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1524335459}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 595ee22c2bf07f440bcc195504080fe4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1524335461
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 07f1008b456c37444bf1c0c3baac7c6a,
+    type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1524335459}
+  m_Mesh: {fileID: 4300002, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+--- !u!4 &1524335462
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 07f1008b456c37444bf1c0c3baac7c6a, type: 3}
+  m_PrefabInternal: {fileID: 651463671}
+  m_GameObject: {fileID: 1524335459}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 550577759}
+  m_RootOrder: 2
+--- !u!1001 &1555800152
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.398900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0908000022
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_RootGameObject: {fileID: 2125628377}
+  m_IsPrefabParent: 0
+--- !u!1 &1558525081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1558525083}
+  - 33: {fileID: 1558525084}
+  - 23: {fileID: 1558525082}
+  m_Layer: 0
+  m_Name: Fungus18_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1558525082
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1558525081}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 818b8f54b7e50cc4f822930120418be8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1558525083
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1558525081}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1351869804}
+  m_RootOrder: 1
+--- !u!33 &1558525084
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 7b54b49c2ed951b4ab2010b7992c721e,
+    type: 3}
+  m_PrefabInternal: {fileID: 1106429250}
+  m_GameObject: {fileID: 1558525081}
+  m_Mesh: {fileID: 4300004, guid: 7b54b49c2ed951b4ab2010b7992c721e, type: 3}
+--- !u!1 &1564624300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1564624301}
+  - 33: {fileID: 1564624303}
+  - 23: {fileID: 1564624302}
+  m_Layer: 0
+  m_Name: Fungus09_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1564624301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1564624300}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1830401414}
+  m_RootOrder: 1
+--- !u!23 &1564624302
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1564624300}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3f2f0fa51ab7ec2419edf6cd61b9f455, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1564624303
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1564624300}
+  m_Mesh: {fileID: 4300004, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+--- !u!1 &1584422080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1584422082}
+  - 33: {fileID: 1584422083}
+  - 23: {fileID: 1584422081}
+  m_Layer: 0
+  m_Name: Fungus04_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1584422081
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1584422080}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 784d486481c22524fb6e358774cffec9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1584422082
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1584422080}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1508551165}
+  m_RootOrder: 2
+--- !u!33 &1584422083
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1584422080}
+  m_Mesh: {fileID: 4300002, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+--- !u!1001 &1595601188
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.171200007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .164499998
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a2866b421b08c604ab72f81bdba374d9, type: 3}
+  m_RootGameObject: {fileID: 967332823}
+  m_IsPrefabParent: 0
+--- !u!1 &1626713774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1626713775}
+  - 33: {fileID: 1626713777}
+  - 23: {fileID: 1626713776}
+  m_Layer: 0
+  m_Name: Fungus17_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626713775
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1626713774}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2125628378}
+  m_RootOrder: 1
+--- !u!23 &1626713776
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1626713774}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 19bf7f8c48325e54794b74bfac7c4216, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1626713777
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1626713774}
+  m_Mesh: {fileID: 4300004, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+--- !u!1 &1628962179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1628962180}
+  - 33: {fileID: 1628962182}
+  - 23: {fileID: 1628962181}
+  m_Layer: 0
+  m_Name: Fungus05_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1628962180
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1628962179}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1719762479}
+  m_RootOrder: 2
+--- !u!23 &1628962181
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1628962179}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d533d41cfd7f9147acc3375d4bcca95, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1628962182
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1628962179}
+  m_Mesh: {fileID: 4300002, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+--- !u!1 &1629938872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1629938875}
+  - 33: {fileID: 1629938874}
+  - 23: {fileID: 1629938873}
+  m_Layer: 0
+  m_Name: Fungus05_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1629938873
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1629938872}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3d533d41cfd7f9147acc3375d4bcca95, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1629938874
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1629938872}
+  m_Mesh: {fileID: 4300006, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+--- !u!4 &1629938875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1629938872}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1719762479}
+  m_RootOrder: 0
+--- !u!1001 &1631191580
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.0456999987
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .101599999
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_RootGameObject: {fileID: 1804268441}
+  m_IsPrefabParent: 0
+--- !u!1 &1657838280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1657838282}
+  - 205: {fileID: 1657838281}
+  m_Layer: 0
+  m_Name: Fungus13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1657838281
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1657838280}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .0140358061, y: .0437817685, z: -.015878927}
+  m_Size: .15379101
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 482973063}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1838971957}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1408881489}
+  m_Enabled: 1
+--- !u!4 &1657838282
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1657838280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.383184642, y: 7.1956395e-19, z: -.032406278}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 482973064}
+  - {fileID: 1838971958}
+  - {fileID: 1408881490}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+--- !u!1 &1667145420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1667145421}
+  - 33: {fileID: 1667145423}
+  - 23: {fileID: 1667145422}
+  m_Layer: 0
+  m_Name: Fungus17_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667145421
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1667145420}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2125628378}
+  m_RootOrder: 0
+--- !u!23 &1667145422
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1667145420}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 19bf7f8c48325e54794b74bfac7c4216, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1667145423
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 1667145420}
+  m_Mesh: {fileID: 4300006, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+--- !u!1 &1667893248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1667893249}
+  - 33: {fileID: 1667893251}
+  - 23: {fileID: 1667893250}
+  m_Layer: 0
+  m_Name: Fungus03_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667893249
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1667893248}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2113568301}
+  m_RootOrder: 1
+--- !u!23 &1667893250
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1667893248}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8d92de7bdf09c474eacc60d3c141aabc, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1667893251
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 1667893248}
+  m_Mesh: {fileID: 4300004, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+--- !u!1 &1696127327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1696127330}
+  - 33: {fileID: 1696127329}
+  - 23: {fileID: 1696127328}
+  m_Layer: 0
+  m_Name: Fungus20_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1696127328
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 1696127327}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 107d74e301a29714bb631438d180ebc9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1696127329
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 675e896c6d907a946b12597af8154427,
+    type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 1696127327}
+  m_Mesh: {fileID: 4300004, guid: 675e896c6d907a946b12597af8154427, type: 3}
+--- !u!4 &1696127330
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_PrefabInternal: {fileID: 1794465624}
+  m_GameObject: {fileID: 1696127327}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1044424478}
+  m_RootOrder: 1
+--- !u!1001 &1697875266
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .0222879108
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.5079819e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0679134652
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_RootGameObject: {fileID: 1793194343}
+  m_IsPrefabParent: 0
+--- !u!1 &1714165035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1714165036}
+  - 33: {fileID: 1714165038}
+  - 23: {fileID: 1714165037}
+  m_Layer: 0
+  m_Name: Fungus06_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1714165036
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 1714165035}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1793194344}
+  m_RootOrder: 1
+--- !u!23 &1714165037
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 1714165035}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 69e7c197fda4eda428d98066f3a0a37e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1714165038
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 1714165035}
+  m_Mesh: {fileID: 4300004, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+--- !u!1 &1719762478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1719762479}
+  - 205: {fileID: 1719762480}
+  m_Layer: 0
+  m_Name: Fungus05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719762479
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4f0d5023579a3314e984ec0a8760b6b8, type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1719762478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.175999999, y: -0, z: .066399999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1629938875}
+  - {fileID: 724299515}
+  - {fileID: 1628962180}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!205 &1719762480
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 4f0d5023579a3314e984ec0a8760b6b8,
+    type: 3}
+  m_PrefabInternal: {fileID: 399461121}
+  m_GameObject: {fileID: 1719762478}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .000434912741, y: .023539409, z: -.000758051872}
+  m_Size: .0912058949
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1629938873}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 724299516}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1628962181}
+  m_Enabled: 1
+--- !u!1 &1731736432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1731736433}
+  - 205: {fileID: 1731736434}
+  m_Layer: 0
+  m_Name: Fungus02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1731736433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 1731736432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.132839292, y: -1.64417026e-20, z: .000740468444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 658824738}
+  - {fileID: 2059407570}
+  - {fileID: 1991614094}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+--- !u!205 &1731736434
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 1731736432}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .00112931989, y: .0425021574, z: .00158970058}
+  m_Size: .1515553
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 658824739}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2059407568}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1991614095}
+  m_Enabled: 1
+--- !u!1001 &1739564171
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.132839292
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.64417026e-20
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .000740468444
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_RootGameObject: {fileID: 1731736432}
+  m_IsPrefabParent: 0
+--- !u!1 &1763622331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1763622334}
+  - 33: {fileID: 1763622333}
+  - 23: {fileID: 1763622332}
+  m_Layer: 0
+  m_Name: Fungus09_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1763622332
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1763622331}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3f2f0fa51ab7ec2419edf6cd61b9f455, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1763622333
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1763622331}
+  m_Mesh: {fileID: 4300002, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+--- !u!4 &1763622334
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1763622331}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1830401414}
+  m_RootOrder: 2
+--- !u!1001 &1768890368
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .103535384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.55209421e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0385152064
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_RootGameObject: {fileID: 1519653711}
+  m_IsPrefabParent: 0
+--- !u!1001 &1771958731
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.0926999971
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0449000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_RootGameObject: {fileID: 1508551163}
+  m_IsPrefabParent: 0
+--- !u!1 &1793194343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1793194344}
+  - 205: {fileID: 1793194345}
+  m_Layer: 0
+  m_Name: Fungus06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793194344
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 1793194343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0222879108, y: -1.5079819e-18, z: .0679134652}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 100263724}
+  - {fileID: 1714165036}
+  - {fileID: 2057914052}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+--- !u!205 &1793194345
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 1793194343}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.000308211893, y: .0182808116, z: -.000964650884}
+  m_Size: .0655011609
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 100263725}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1714165037}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2057914050}
+  m_Enabled: 1
+--- !u!1001 &1794465624
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.241099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .204699993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 675e896c6d907a946b12597af8154427, type: 3}
+  m_RootGameObject: {fileID: 1044424477}
+  m_IsPrefabParent: 0
+--- !u!1 &1804268441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1804268442}
+  - 205: {fileID: 1804268443}
+  m_Layer: 0
+  m_Name: Fungus10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804268442
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1804268441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0456999987, y: -0, z: .101599999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1223862259}
+  - {fileID: 1145686152}
+  - {fileID: 1855549358}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+--- !u!205 &1804268443
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1804268441}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: .00231667981, y: .0167370588, z: -.000750780106}
+  m_Size: .0654856265
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1223862257}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1145686153}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1855549359}
+  m_Enabled: 1
+--- !u!1 &1830401413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1830401414}
+  - 205: {fileID: 1830401415}
+  m_Layer: 0
+  m_Name: Fungus09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1830401414
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1830401413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.322400004, y: 0, z: .0623000003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2111622174}
+  - {fileID: 1564624301}
+  - {fileID: 1763622334}
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+--- !u!205 &1830401415
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 1830401413}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.000858124346, y: .0279024467, z: .0012748614}
+  m_Size: .088408865
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2111622175}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1564624302}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1763622332}
+  m_Enabled: 1
+--- !u!1 &1838286379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1838286381}
+  - 33: {fileID: 1838286382}
+  - 23: {fileID: 1838286380}
+  m_Layer: 0
+  m_Name: Fungus04_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1838286380
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1838286379}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 784d486481c22524fb6e358774cffec9, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1838286381
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1838286379}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1508551165}
+  m_RootOrder: 0
+--- !u!33 &1838286382
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 0fba0e602deb22a439a2d9d82eb8ee24,
+    type: 3}
+  m_PrefabInternal: {fileID: 1771958731}
+  m_GameObject: {fileID: 1838286379}
+  m_Mesh: {fileID: 4300006, guid: 0fba0e602deb22a439a2d9d82eb8ee24, type: 3}
+--- !u!1 &1838971956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1838971958}
+  - 33: {fileID: 1838971959}
+  - 23: {fileID: 1838971957}
+  m_Layer: 0
+  m_Name: Fungus13_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1838971957
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1838971956}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fbcc342d6e8ed0a43b388694a2e5af22, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1838971958
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1838971956}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1657838282}
+  m_RootOrder: 1
+--- !u!33 &1838971959
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 6fcdc8f08b4568c4bb4b07182bf1c756,
+    type: 3}
+  m_PrefabInternal: {fileID: 2033846857}
+  m_GameObject: {fileID: 1838971956}
+  m_Mesh: {fileID: 4300004, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+--- !u!1001 &1848628527
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.239099994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0507999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_RootGameObject: {fileID: 2113568300}
+  m_IsPrefabParent: 0
+--- !u!1 &1855549357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1855549358}
+  - 33: {fileID: 1855549360}
+  - 23: {fileID: 1855549359}
+  m_Layer: 0
+  m_Name: Fungus10_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1855549358
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1855549357}
+  m_LocalRotation: {x: 2.66925468e-08, y: -.707106709, z: 2.66925415e-08, w: .707106829}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1804268442}
+  m_RootOrder: 2
+--- !u!23 &1855549359
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1855549357}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a36dd08860363604790e2a960287e6d8, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1855549360
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 626f6c289fc49f14ca95c931b0b60e48,
+    type: 3}
+  m_PrefabInternal: {fileID: 1631191580}
+  m_GameObject: {fileID: 1855549357}
+  m_Mesh: {fileID: 4300002, guid: 626f6c289fc49f14ca95c931b0b60e48, type: 3}
+--- !u!1001 &1886254780
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: .1761522
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.05036753e-18
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0923403427
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 23451456a88a2574482fb27dbc9a05ae, type: 3}
+  m_RootGameObject: {fileID: 1408668875}
+  m_IsPrefabParent: 0
+--- !u!1001 &1905406599
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.322400004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: .0623000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_RootGameObject: {fileID: 1830401413}
+  m_IsPrefabParent: 0
+--- !u!1 &1972200013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1972200014}
+  - 205: {fileID: 1972200015}
+  m_Layer: 0
+  m_Name: Fungus08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972200014
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 8389d494ab80de4469ea224d71e5f3aa, type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1972200013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.235836118, y: 3.20952721e-19, z: -.0144544262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1061920209}
+  - {fileID: 250117460}
+  - {fileID: 1417821312}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!205 &1972200015
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 8389d494ab80de4469ea224d71e5f3aa,
+    type: 3}
+  m_PrefabInternal: {fileID: 220835489}
+  m_GameObject: {fileID: 1972200013}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.000541821122, y: .0512829572, z: -.00071682781}
+  m_Size: .133442685
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1061920207}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 250117461}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1417821313}
+  m_Enabled: 1
+--- !u!1 &1981218747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1981218749}
+  - 33: {fileID: 1981218750}
+  - 23: {fileID: 1981218748}
+  m_Layer: 0
+  m_Name: Fungus07_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1981218748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 1981218747}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: df5201f85ba0f7d4980e9344ea8ad348, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!4 &1981218749
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 1981218747}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1519653713}
+  m_RootOrder: 0
+--- !u!33 &1981218750
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 184487413627a4d41aeabe426a9e4f6f,
+    type: 3}
+  m_PrefabInternal: {fileID: 1768890368}
+  m_GameObject: {fileID: 1981218747}
+  m_Mesh: {fileID: 4300006, guid: 184487413627a4d41aeabe426a9e4f6f, type: 3}
+--- !u!1 &1991614093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1991614094}
+  - 33: {fileID: 1991614096}
+  - 23: {fileID: 1991614095}
+  m_Layer: 0
+  m_Name: Fungus02_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991614094
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 1991614093}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1731736433}
+  m_RootOrder: 2
+--- !u!23 &1991614095
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 1991614093}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ba25250aa5d7a704aa2291448a7a571b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1991614096
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 1991614093}
+  m_Mesh: {fileID: 4300002, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+--- !u!1 &1991969530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1991969533}
+  - 33: {fileID: 1991969532}
+  - 23: {fileID: 1991969531}
+  m_Layer: 0
+  m_Name: Fungus11_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1991969531
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 1991969530}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0bf3bc37cb8a4c34eae322448bbd2c72, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1991969532
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 1991969530}
+  m_Mesh: {fileID: 4300006, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+--- !u!4 &1991969533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 1991969530}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1285813567}
+  m_RootOrder: 0
+--- !u!1001 &2033846857
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -.383184642
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.1956395e-19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -.032406278
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6fcdc8f08b4568c4bb4b07182bf1c756, type: 3}
+  m_RootGameObject: {fileID: 1657838280}
+  m_IsPrefabParent: 0
+--- !u!1 &2057914049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2057914052}
+  - 33: {fileID: 2057914051}
+  - 23: {fileID: 2057914050}
+  m_Layer: 0
+  m_Name: Fungus06_LOD2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &2057914050
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 2057914049}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 69e7c197fda4eda428d98066f3a0a37e, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2057914051
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b,
+    type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 2057914049}
+  m_Mesh: {fileID: 4300002, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+--- !u!4 &2057914052
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: f0b1bb7ac63c6bb4d85d9f85d009ca6b, type: 3}
+  m_PrefabInternal: {fileID: 1697875266}
+  m_GameObject: {fileID: 2057914049}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1793194344}
+  m_RootOrder: 2
+--- !u!1 &2059407567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2059407570}
+  - 33: {fileID: 2059407569}
+  - 23: {fileID: 2059407568}
+  m_Layer: 0
+  m_Name: Fungus02_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &2059407568
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 2059407567}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ba25250aa5d7a704aa2291448a7a571b, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2059407569
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: fb3ca7e2461ad814c959ea800e5d3d99,
+    type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 2059407567}
+  m_Mesh: {fileID: 4300004, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+--- !u!4 &2059407570
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: fb3ca7e2461ad814c959ea800e5d3d99, type: 3}
+  m_PrefabInternal: {fileID: 1739564171}
+  m_GameObject: {fileID: 2059407567}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1731736433}
+  m_RootOrder: 1
+--- !u!1 &2097910451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2097910452}
+  - 33: {fileID: 2097910454}
+  - 23: {fileID: 2097910453}
+  m_Layer: 0
+  m_Name: Fungus11_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097910452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 2097910451}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1285813567}
+  m_RootOrder: 1
+--- !u!23 &2097910453
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 2097910451}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0bf3bc37cb8a4c34eae322448bbd2c72, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2097910454
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: aa1028d1a00574c4d8f43558ec8ef039,
+    type: 3}
+  m_PrefabInternal: {fileID: 655213239}
+  m_GameObject: {fileID: 2097910451}
+  m_Mesh: {fileID: 4300004, guid: aa1028d1a00574c4d8f43558ec8ef039, type: 3}
+--- !u!1 &2111622173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2111622174}
+  - 33: {fileID: 2111622176}
+  - 23: {fileID: 2111622175}
+  m_Layer: 0
+  m_Name: Fungus09_LOD0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111622174
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 2111622173}
+  m_LocalRotation: {x: -8.14603354e-08, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1830401414}
+  m_RootOrder: 0
+--- !u!23 &2111622175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 2111622173}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3f2f0fa51ab7ec2419edf6cd61b9f455, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &2111622176
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: b3700a05c13750844854ff033295a4c5,
+    type: 3}
+  m_PrefabInternal: {fileID: 1905406599}
+  m_GameObject: {fileID: 2111622173}
+  m_Mesh: {fileID: 4300006, guid: b3700a05c13750844854ff033295a4c5, type: 3}
+--- !u!1 &2113568300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2113568301}
+  - 205: {fileID: 2113568302}
+  m_Layer: 0
+  m_Name: Fungus03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2113568301
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e60de4a596b22294cbbcda99addd1935, type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 2113568300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.239099994, y: 0, z: .0507999994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 346381532}
+  - {fileID: 1667893249}
+  - {fileID: 1025743085}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+--- !u!205 &2113568302
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: e60de4a596b22294cbbcda99addd1935,
+    type: 3}
+  m_PrefabInternal: {fileID: 1848628527}
+  m_GameObject: {fileID: 2113568300}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 6.59329817e-05, y: .0268848203, z: -.000506717712}
+  m_Size: .102247857
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 346381530}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1667893250}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1025743086}
+  m_Enabled: 1
+--- !u!1 &2125628377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2125628378}
+  - 205: {fileID: 2125628379}
+  m_Layer: 0
+  m_Name: Fungus17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2125628378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4d0195afc2c97ad45a17ae43faf840f8, type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 2125628377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.398900002, y: 0, z: .0908000022}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1667145421}
+  - {fileID: 1626713775}
+  - {fileID: 725471092}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+--- !u!205 &2125628379
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20500000, guid: 4d0195afc2c97ad45a17ae43faf840f8,
+    type: 3}
+  m_PrefabInternal: {fileID: 1555800152}
+  m_GameObject: {fileID: 2125628377}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -.0121847801, y: .0275209025, z: .00115239248}
+  m_Size: .111535907
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: .25
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1667145422}
+  - screenRelativeHeight: .125
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1626713776}
+  - screenRelativeHeight: .00999999978
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 725471090}
+  m_Enabled: 1

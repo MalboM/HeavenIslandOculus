@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 46f245b0b260c8a4cb0afbf9720dbb56
+labels:
+- Day
+- Night
+- Sky
+- Sun
+- Terrain
+- Rendering
+- Atmospheric
+- Scattering
+- Haze
+- Volumetric
+- Clouds
+- Cumulus
+- Effects
+- Rain
+- Snow
+- Lightning
+- Storm
+- Tornado
+- Butterflies
+- Seasons
+- Dome
+- Cycle
+- Moon
+- Volcano
+- Eruption
+- Leaves
+- Trees
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

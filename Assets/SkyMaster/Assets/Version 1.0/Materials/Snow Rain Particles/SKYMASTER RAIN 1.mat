@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SKYMASTER RAIN 1
+  m_Shader: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: d2eab4118d2789749a3dded1915e571b, type: 3}
+          m_Scale: {x: 10, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ffbfae3295a21164b809bf1035db28aa, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Control
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat0
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Splat3
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShoreTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FalloffTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 64642bf5f9e5d1942a8c509989644990, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Normal
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FrontTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BackTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LeftTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RightTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _UpTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DownTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .100000016
+      data:
+        first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
+          name: _Occlusion
+        second: 7.5
+      data:
+        first:
+          name: _InvFade
+        second: 1.02446425
+      data:
+        first:
+          name: _Alpha
+        second: .0500000007
+      data:
+        first:
+          name: _Coloration
+        second: 0
+      data:
+        first:
+          name: fOuterRadius
+        second: 0
+      data:
+        first:
+          name: fOuterRadius2
+        second: 0
+      data:
+        first:
+          name: fInnerRadius
+        second: 0
+      data:
+        first:
+          name: fInnerRadius2
+        second: 0
+      data:
+        first:
+          name: fKrESun
+        second: 0
+      data:
+        first:
+          name: fKmESun
+        second: 0
+      data:
+        first:
+          name: fKr4PI
+        second: 0
+      data:
+        first:
+          name: fKm4PI
+        second: 0
+      data:
+        first:
+          name: fScale
+        second: 0
+      data:
+        first:
+          name: fScaleDepth
+        second: 0
+      data:
+        first:
+          name: fScaleOverScaleDepth
+        second: 0
+      data:
+        first:
+          name: fExposure
+        second: 0
+      data:
+        first:
+          name: fCameraHeight
+        second: 0
+      data:
+        first:
+          name: fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: fSamples
+        second: 2
+      data:
+        first:
+          name: Bump_strenght
+        second: 0
+      data:
+        first:
+          name: g
+        second: 0
+      data:
+        first:
+          name: g2
+        second: 0
+      data:
+        first:
+          name: _Outline
+        second: .00499999989
+      data:
+        first:
+          name: _LowFogHeight
+        second: 0
+      data:
+        first:
+          name: _HighFogHeight
+        second: 150
+      data:
+        first:
+          name: _BaseLight
+        second: .349999994
+      data:
+        first:
+          name: _AO
+        second: 2.4000001
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
+          name: _TranslucencyViewDependency
+        second: .699999988
+      data:
+        first:
+          name: _ShadowStrength
+        second: 1
+      data:
+        first:
+          name: _FresnelScale
+        second: .75
+      data:
+        first:
+          name: _GerstnerIntensity
+        second: 1
+      data:
+        first:
+          name: _Influence
+        second: 95
+      data:
+        first:
+          name: _Bumpiness
+        second: 1999
+    m_Colors:
+      data:
+        first:
+          name: _Scale
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: .844827592, b: .844827592, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .735294104, g: .450908303, b: .0684584305, a: .0784313753}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 1, g: .962068975, b: .962068975, a: .501960814}
+      data:
+        first:
+          name: v3CameraPos
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: v3LightDir
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: v3LightDirMoon
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: v3InvWavelength
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: .272058845, g: .272058845, b: .272058845, a: 0}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _TranslucencyColor
+        second: {r: .730000019, g: .850000024, b: .409999996, a: 1}
+      data:
+        first:
+          name: _DistortParams
+        second: {r: 1, g: 1, b: 2, a: 1.14999998}
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: {r: .150000006, g: .150000006, b: .5, a: 1}
+      data:
+        first:
+          name: _AnimationTiling
+        second: {r: 2.20000005, g: 2.20000005, b: -1.10000002, a: -1.10000002}
+      data:
+        first:
+          name: _AnimationDirection
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BumpTiling
+        second: {r: 1, g: 1, b: -2, a: 3}
+      data:
+        first:
+          name: _BumpDirection
+        second: {r: 1, g: 1, b: -1, a: 1}
+      data:
+        first:
+          name: _BaseColor
+        second: {r: .540000021, g: .949999988, b: .99000001, a: .5}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: .540000021, g: .949999988, b: .99000001, a: .5}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .720000029, g: .720000029, b: .720000029, a: 1}
+      data:
+        first:
+          name: _WorldLightDir
+        second: {r: 0, g: .100000001, b: -.5, a: 0}
+      data:
+        first:
+          name: _Foam
+        second: {r: .100000001, g: .375, b: 0, a: 0}
+      data:
+        first:
+          name: _GAmplitude
+        second: {r: .300000012, g: .349999994, b: .25, a: .25}
+      data:
+        first:
+          name: _GFrequency
+        second: {r: 1.29999995, g: 1.35000002, b: 1.25, a: 1.25}
+      data:
+        first:
+          name: _GSteepness
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _GSpeed
+        second: {r: 1.20000005, g: 1.375, b: 1.10000002, a: 1.5}
+      data:
+        first:
+          name: _GDirectionAB
+        second: {r: .300000012, g: .850000024, b: .850000024, a: .25}
+      data:
+        first:
+          name: _GDirectionCD
+        second: {r: .100000001, g: .899999976, b: .5, a: .5}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: .161764681, g: .161764681, b: .161764681, a: 0}
+      data:
+        first:
+          name: _Diffuse
+        second: {r: .90196079, g: .701960802, b: .376470596, a: 1}
+      data:
+        first:
+          name: _Tint
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _LightWrapping
+        second: {r: .905882418, g: .494117588, b: .490196109, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

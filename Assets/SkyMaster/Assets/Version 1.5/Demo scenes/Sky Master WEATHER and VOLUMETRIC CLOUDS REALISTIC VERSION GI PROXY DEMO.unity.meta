@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 90d52d39f1fe5c14a9cd5eaffbf810f7
+labels:
+- Fog
+- Rendering
+- Scattering
+- Seasons
+- Sky
+- Storm
+- Trees
+- Volcano
+- Volumetric
+- Weather
+- Godrays
+- Halo
+- Motion
+- Atmosphere
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
