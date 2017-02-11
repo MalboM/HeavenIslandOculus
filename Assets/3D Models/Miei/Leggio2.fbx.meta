@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 7107eb237b6774043ac2d36240243437
+timeCreated: 1450700708
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface19
+    100002: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface20
+    100004: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface21
+    100006: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface22
+    100008: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface23
+    100010: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface24
+    100012: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface25
+    100014: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface26
+    100016: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface27
+    100018: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface28
+    100020: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface29
+    100022: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface30
+    100024: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface31
+    100026: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface32
+    100028: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface33
+    100030: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface34
+    100032: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface35
+    100034: //RootNode
+    100036: polySurface27
+    400000: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface19
+    400002: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface20
+    400004: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface21
+    400006: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface22
+    400008: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface23
+    400010: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface24
+    400012: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface25
+    400014: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface26
+    400016: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface27
+    400018: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface28
+    400020: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface29
+    400022: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface30
+    400024: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface31
+    400026: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface32
+    400028: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface33
+    400030: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface34
+    400032: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface35
+    400034: //RootNode
+    400036: polySurface27
+    2300000: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface19
+    2300002: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface21
+    2300004: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface22
+    2300006: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface23
+    2300008: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface24
+    2300010: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface25
+    2300012: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface26
+    2300014: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface27
+    2300016: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface28
+    2300018: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface29
+    2300020: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface31
+    2300022: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface32
+    2300024: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface34
+    2300026: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface35
+    2300028: polySurface27
+    3300000: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface19
+    3300002: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface21
+    3300004: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface22
+    3300006: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface23
+    3300008: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface24
+    3300010: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface25
+    3300012: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface26
+    3300014: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface27
+    3300016: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface28
+    3300018: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface29
+    3300020: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface31
+    3300022: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface32
+    3300024: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface34
+    3300026: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface35
+    3300028: polySurface27
+    4300000: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface19
+    4300002: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface21
+    4300004: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface22
+    4300006: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface23
+    4300008: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface24
+    4300010: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface25
+    4300012: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface26
+    4300014: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface27
+    4300016: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface28
+    4300018: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface29
+    4300020: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface31
+    4300022: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface32
+    4300024: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface34
+    4300026: fabio_ferrara_production_modeling_wk4_958079102__1_:polySurface35
+    4300028: polySurface27
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
