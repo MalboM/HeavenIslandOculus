@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SM_Snow_Mud
+  m_Shader: {fileID: 4800000, guid: 261bb4e9c91603f47bb665258f7601d9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 85bb1ede1df95d846b1227e040f9fdde, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SnowTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 48c8aa3944525c64eaa9b912418f3db3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SnowBump
+        second:
+          m_Texture: {fileID: 2800000, guid: 05e024a245b8dd74ea565eac59643313, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 2800000, guid: 05e024a245b8dd74ea565eac59643313, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 2800000, guid: 8aa02c8338fe95f418de5c9a5d882a52, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: 5aa6cdbbd541c41478394fe247ac62a0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NormalMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: 214f0383f35aeb04eb77129154314d49, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Water
+        second:
+          m_Texture: {fileID: 2800000, guid: 22b88a8c72b7756429cef914fbb7f35b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 334e9cfa1b4af36418c471e785d46bca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlossMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: 6d3a84f108f95cd4390988665abcc59f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LayerTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 557fa375b09068c4d9f4d473da0983c5, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LayerBump
+        second:
+          m_Texture: {fileID: 2800000, guid: 3c0b12105a22b9848831eca0529161c0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainBump
+        second:
+          m_Texture: {fileID: 2800000, guid: 9c179526097eec74ca7c95010088b3d6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .00999999978
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _SnowCoverage
+        second: .308999985
+      data:
+        first:
+          name: _SnowBlend
+        second: 0
+      data:
+        first:
+          name: _LightIntensity
+        second: 1
+      data:
+        first:
+          name: _SnowBumpDepth
+        second: 1.16999996
+      data:
+        first:
+          name: _Depth
+        second: .0103799999
+      data:
+        first:
+          name: _Wetness
+        second: 6.42000008
+      data:
+        first:
+          name: water_level
+        second: -3.03999996
+      data:
+        first:
+          name: water_spec
+        second: 1.11000001
+      data:
+        first:
+          name: water_tiling
+        second: -1.16999996
+      data:
+        first:
+          name: _BumpPower
+        second: .620000005
+      data:
+        first:
+          name: Snow_Cover_offset
+        second: 0
+      data:
+        first:
+          name: _LayerStrength
+        second: .850000024
+      data:
+        first:
+          name: _LayerDepth
+        second: .00499999989
+      data:
+        first:
+          name: _SnowStrength
+        second: .569999993
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Direction
+        second: {r: 0, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _Power
+        second: {r: 0, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _LayerDirection
+        second: {r: 0, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: worldPos
+        second: {r: 1, g: 1, b: 1, a: 1}

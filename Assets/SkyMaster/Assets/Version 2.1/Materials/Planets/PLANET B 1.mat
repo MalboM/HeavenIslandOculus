@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PLANET B 1
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 9.99999975e-05, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 16f56dd47e92ac94e9ed00d0157899e1, type: 3}
+          m_Scale: {x: 9.99999975e-05, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ColorRamp
+        second:
+          m_Texture: {fileID: 2800000, guid: 4b8d081e9d114c7f1100f5ab44295342, type: 3}
+          m_Scale: {x: -2, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Parallax
+        second: .0199999996
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: .266000003
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 27.9200001
+      data:
+        first:
+          name: _Coloration
+        second: 0
+      data:
+        first:
+          name: fOuterRadius
+        second: 10250
+      data:
+        first:
+          name: fOuterRadius2
+        second: 105062496
+      data:
+        first:
+          name: fInnerRadius
+        second: 10000
+      data:
+        first:
+          name: fInnerRadius2
+        second: 1e+08
+      data:
+        first:
+          name: fKrESun
+        second: .0141276941
+      data:
+        first:
+          name: fKmESun
+        second: .000663999992
+      data:
+        first:
+          name: fKr4PI
+        second: .106948107
+      data:
+        first:
+          name: fKm4PI
+        second: .00502654817
+      data:
+        first:
+          name: fScale
+        second: .00400000019
+      data:
+        first:
+          name: fScaleDepth
+        second: .0599999987
+      data:
+        first:
+          name: fScaleOverScaleDepth
+        second: .13333334
+      data:
+        first:
+          name: fExposure
+        second: 1.60000002
+      data:
+        first:
+          name: fCameraHeight
+        second: 0
+      data:
+        first:
+          name: fCameraHeight2
+        second: 0
+      data:
+        first:
+          name: fSamples
+        second: .0199999996
+      data:
+        first:
+          name: Bump_strenght
+        second: 0
+      data:
+        first:
+          name: g
+        second: -.999021113
+      data:
+        first:
+          name: g2
+        second: .99804318
+      data:
+        first:
+          name: Horizon_adj
+        second: 9.92277813
+      data:
+        first:
+          name: HorizonY
+        second: -.0599999987
+      data:
+        first:
+          name: Out_color_f1
+        second: 2
+      data:
+        first:
+          name: Out_color_f2
+        second: 1.58000004
+      data:
+        first:
+          name: Motion_f
+        second: 16
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 20.3092518, g: 20.5029068, b: 26.8935299, a: 27.9200001}
+      data:
+        first:
+          name: _Color
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: .727408707, g: .73434478, b: .963235319, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: v3CameraPos
+        second: {r: -3.81469727e-06, g: -9689.99609, b: 3.70831299, a: 0}
+      data:
+        first:
+          name: v3LightDir
+        second: {r: -.148041472, g: .275625378, b: .949796975, a: 0}
+      data:
+        first:
+          name: v3LightDirMoon
+        second: {r: .291730285, g: .431135088, b: .853824317, a: 0}
+      data:
+        first:
+          name: v3InvWavelength
+        second: {r: 32.1368179, g: 74.8314743, b: 123.456772, a: 0}
+      data:
+        first:
+          name: GroundColor
+        second: {r: .170562863, g: .21022138, b: .227941155, a: .368627459}
+      data:
+        first:
+          name: _Obliqueness
+        second: {r: 0, g: 0, b: 0, a: 0}
