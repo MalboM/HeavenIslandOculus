@@ -1,0 +1,26 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Assets/3D Models/Downloaded/Materials/05 - Default.mat
+#	modified:   Assets/BIG_Environment_Pack/BEP_Standard Assets/Water (Pro Only)/Sources/Textures/nightgradient cubemap.psd.meta
+#	modified:   Assets/BIG_Environment_Pack/BEP_Standard Assets/Water (Pro Only)/Sources/Textures/oceangradientcube.psd.meta
+#	modified:   Assets/Ornamental Flower Set/Resources/Furniture01/Textures/env.tif.meta
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara21.unity
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara21.unity.meta
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara22.unity
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara22.unity.meta
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara23.unity
+#	new file:   Assets/ScenesParadise/1_MainMenuBeachFerrara23.unity.meta
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/Pavement.mat
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/Pavement.mat.meta
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/tileWoodPlywood_var03_DFF.mat
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/tileWoodPlywood_var03_DFF.mat.meta
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/tileWoodPlywood_var04_DFF.mat
+#	new file:   Assets/uMMO/DemoScenes/DemoScene3_Assets/Finished2/Materials/tileWoodPlywood_var04_DFF.mat.meta
+#	modified:   ProjectSettings/QualitySettings.asset
+#
+
